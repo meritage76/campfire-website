@@ -1,10 +1,5 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  output: "export",
-  trailingSlash: true,
-  basePath: "/campfire-website",
-  assetPrefix: "/campfire-website/",
-};
+const nextConfig: NextConfig = {};
 
 export default nextConfig;

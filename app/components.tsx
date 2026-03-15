@@ -8,6 +8,7 @@ type CardItem = {
   title: string;
   description?: string;
   bio?: string;
+  photo?: string;
 };
 
 type StepItem = {
@@ -172,7 +173,19 @@ export function TeamGrid({ members }: { members: CardItem[] }) {
     <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
       {members.map((member) => (
         <div key={member.title} className="rounded-3xl border border-white/10 bg-white/5 p-6">
-          <div className="mb-4 h-12 w-12 rounded-full bg-[#2a7a6b]/30" />
+          <div className="mb-4">
+            {member.photo ? (
+              <Image
+                src={member.photo}
+                alt={member.title}
+                width={72}
+                height={72}
+                className="h-18 w-18 rounded-full object-cover"
+              />
+            ) : (
+              <div className="h-16 w-16 rounded-full bg-[#2a7a6b]/30" />
+            )}
+          </div>
           <h3 className="text-xl font-bold text-white">{member.title}</h3>
           {member.description ? <p className="mt-2 text-sm font-semibold text-[#e87d2b]">{member.description}</p> : null}
           {member.bio ? <p className="mt-3 text-sm leading-7 text-white/70">{member.bio}</p> : null}
