@@ -7,9 +7,31 @@ const criteria = [
 ];
 
 const team = [
-  { title: "Jay Merritt", description: "Acquisitions Lead" },
-  { title: "Tracey Gunn", description: "Operations Partner" },
-  { title: "Tom & Chuck", description: "Capital Partners — GCA Equity Partners" },
+  {
+    title: "Jason Merritt",
+    description: "Acquisitions, Brokerage & Asset Management",
+    bio: "Real estate developer experienced in project planning, site improvements, and value-add execution.",
+  },
+  {
+    title: "Tracy Gunn",
+    description: "Hospitality Operations & Guest Experience",
+    bio: "20+ years of hands-on operating experience across customer-facing businesses, plus active real estate and hospitality investment experience.",
+  },
+  {
+    title: "Tom Braegelmann",
+    description: "Development & Construction Strategy",
+    bio: "40+ years of real estate development experience spanning land acquisition, entitlements, infrastructure, construction oversight, and capital planning.",
+  },
+  {
+    title: "Susan McGhee",
+    description: "Operations, Underwriting & Transaction Management",
+    bio: "Real estate operator with a hospitality background who helped scale brokerage operations from $20M to $370M.",
+  },
+  {
+    title: "Francisca Macleery",
+    description: "Operations, Team Leadership & Customer Experience",
+    bio: "Operations leader with experience in staffing, budgeting, customer service, and team development.",
+  },
 ];
 
 export default function AboutPage() {
