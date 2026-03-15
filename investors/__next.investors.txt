@@ -1,0 +1,4 @@
+1:"$Sreact.fragment"
+2:I[350,["/campfire-website/_next/static/chunks/5da8d43ca849e5ec.js","/campfire-website/_next/static/chunks/1d1d155fc6a4c395.js"],"default"]
+3:I[43493,["/campfire-website/_next/static/chunks/5da8d43ca849e5ec.js","/campfire-website/_next/static/chunks/1d1d155fc6a4c395.js"],"default"]
+0:{"buildId":"xCtiVlhBXhXWZwZJxF-3N","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
